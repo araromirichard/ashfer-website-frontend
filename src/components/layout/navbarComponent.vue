@@ -2,15 +2,37 @@
   <div>
     <nav
       id="navbar"
-      class="px-4 py-4 sm:py-6 bg-white shadow sm:fixed w-full z-10"
+      class="px-4 py-4 md:py-6 bg-white shadow md:fixed w-full z-10 transition-colors duration-500"
+      :class="{ 'md:bg-transparent md:shadow-none': !showWhiteNav }"
     >
-      <div class="container mx-auto flex flex-col sm:flex-row item-center">
+      <div class="container mx-auto flex flex-col md:flex-row item-center">
         <div class="flex flex-row w-full items-center justify-between">
-          <div>
-            <img src="../../assets/logo.svg" alt="company logo" />
+          <div class="hidden md:block">
+            <img
+              src="../../assets/logo_wht.svg"
+              alt="company logo"
+              :class="{ hidden: showWhiteNav }"
+            />
+            <img
+              src="../../assets/logo.svg"
+              alt="company logo"
+              :class="{ hidden: !showWhiteNav }"
+            />
+          </div>
+          <div class="md:hidden">
+            <!-- <img
+              src="../../assets/logo_wht.svg"
+              alt="company logo"
+              :class="{ hidden: showWhiteNav }"
+            /> -->
+            <img
+              src="../../assets/logo.svg"
+              alt="company logo"
+              :class="{ block: !showWhiteNav }"
+            />
           </div>
           <div>
-            <button v-show="!isVisible" class="sm:hidden" @click="toggle">
+            <button v-show="!isVisible" class="md:hidden" @click="toggle">
               <svg
                 class="w-10 h-10"
                 fill="none"
@@ -26,7 +48,7 @@
                 ></path>
               </svg>
             </button>
-            <button v-show="isVisible" class="sm:hidden" @click="toggle">
+            <button v-show="isVisible" class="md:hidden" @click="toggle">
               <svg
                 class="w-10 h-10"
                 fill="none"
@@ -45,10 +67,10 @@
           </div>
         </div>
         <div
-          class="text-blacky mt-4 sm:mt-0 w-full sm:space-x-6 font-poppins font-bold text-lg tracking-widest sm:justify-end sm:content-center sm:items-center sm:flex sm:flex-row"
-          :class="{ hidden: !isVisible }"
+          class="text-blacky mt-4 md:mt-0 w-full md:space-x-4 font-poppins font-bold sm:text-base md:text-lg tracking-n md:justify-end md:content-center md:items-center md:flex md:flex-row"
+          :class="{ hidden: !isVisible, 'md:text-white': !showWhiteNav }"
         >
-          <NavbarLinks to="/home" label="Home" />
+          <NavbarLinks to="/" label="Home" />
           <NavbarLinks to="/about-us" label="About Us" />
           <NavbarLinks to="/our-business" label="Our Business" />
           <NavbarLinks to="/our-clients" label="Our Clients" />
@@ -64,16 +86,28 @@
 import { useRouter } from "vue-router";
 import NavbarLinks from "../navbarLinks.vue";
 import { useToggle } from "../../composables/useToggle";
+import { ref } from "@vue/reactivity";
 export default {
   components: { NavbarLinks },
   setup() {
     const router = useRouter();
+    const showWhiteNav = ref(false);
+    document.addEventListener("scroll", function () {
+      let bodyTopPosition = document.body.getBoundingClientRect().top;
+
+      if (bodyTopPosition < -150) {
+        showWhiteNav.value = true;
+      } else {
+        showWhiteNav.value = false;
+      }
+    });
 
     let { isVisible, toggle } = useToggle();
     return {
       router,
       isVisible,
       toggle,
+      showWhiteNav,
     };
   },
 };
