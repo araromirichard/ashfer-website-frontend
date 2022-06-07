@@ -29,26 +29,25 @@
             standards.
           </span>
         </div>
-        <div></div>
       </div>
     </div>
   </div>
   <div
-    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 py-20 px-8 sm:px-32 bg-secondary h-full w-full"
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 py-20 sm:pt-20 sm:pb-40 px-8 sm:px-16 bg-secondary h-full w-full"
   >
-    <ServicesCard cardName="power" src="../../../public/images/POWER.jpg" />
+    <ServicesCard cardName="power" src="../../../images/POWER.jpg" />
     <ServicesCard
       cardName="Oil and gas"
-      src="../../../public/images/OIL-AND-GAS.jpg"
+      src="../../../images/OIL-AND-GAS.jpg"
     />
-    <ServicesCard cardName="haulage" src="../../../public/images/HAULAGE.jpg" />
+    <ServicesCard cardName="haulage" src="../../../images/HAULAGE.jpg" />
     <ServicesCard
       cardName="construction"
-      src="../../../public/images/OUR-BUSINESS.jpg"
+      src="../../../images/OUR-BUSINESS.jpg"
     />
     <ServicesCard
       cardName="manufacturing"
-      src="../../../public/images/MANUFACTURING.jpg"
+      src="../../../images/MANUFACTURING.jpg"
     />
   </div>
 </template>

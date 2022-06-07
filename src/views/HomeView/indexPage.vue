@@ -2,6 +2,8 @@
 import HeroSection from "./heroSection.vue";
 import AboutSect from "./aboutSect.vue";
 import WhatWeDo from "./whatWeDo.vue";
+import HomePartners from "./homePartners.vue";
+import HomeCsr from "./homeCsr.vue";
 </script>
 
 <template>
@@ -12,8 +14,16 @@ import WhatWeDo from "./whatWeDo.vue";
     <AboutSect />
     <!-- about us section ends -->
 
-    <!-- about us section starts -->
+    <!-- what we do section starts -->
     <WhatWeDo />
-    <!-- about us section ends -->
+    <!-- what we do section ends -->
+
+    <!-- partners section starts -->
+    <HomePartners />
+    <!-- partners section ends -->
+
+    <!-- crv and contact section starts -->
+    <HomeCsr />
+    <!-- crv and contact section ends -->
   </div>
 </template>
