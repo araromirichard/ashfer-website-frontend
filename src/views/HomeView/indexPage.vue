@@ -23,7 +23,9 @@ import HomeCsr from "./homeCsr.vue";
     <!-- partners section ends -->
 
     <!-- crv and contact section starts -->
-    <HomeCsr />
+    <div class="mb-20">
+      <HomeCsr />
+    </div>
     <!-- crv and contact section ends -->
   </div>
 </template>

@@ -9,14 +9,19 @@
       class="absolute inset-0 bg-gradient-to-r from-deepOrange opacity-60"
     ></div>
     <div class="absolute inset-0 text-white px-4 md:px-0">
-      <div class="container mx-auto h-full flex flex-row justify-around">
-        <div class="flex flex-col justify-center">
-          <div class="super__title text-white">WE ARE ASHFAR</div>
-          <div class="title py-4 md:pt-12 md:pb-0">Ashfar,</div>
-          <div class="title py-4 md:py-8">Empowering Nations</div>
-          <div class="sub__title">
-            Power | Haulage | Construction <br />
-            Oil and Gas | Manufacturing
+      <div
+        class="container mx-auto h-full w-full flex flex-row md:justify-around"
+      >
+        <div class="flex flex-col justify-center pl-2 md:px-0">
+          <div
+            class="super__title pb-4 md:pb-0 text-white invisible md:visible"
+          >
+            WE ARE ASHFAR
+          </div>
+          <div class="title pt-1 pb-1.5 md:pt-12 md:pb-0">Ashfar,</div>
+          <div class="title pb-2 md:py-3">Empowering Nations</div>
+          <div class="sub__title pt-6 md:pt-4 w-full md:w-[600px]">
+            Power | Haulage | Construction | Oil and Gas | Manufacturing
           </div>
         </div>
         <div
@@ -28,11 +33,11 @@
             Scroll to see more
           </p>
 
-          <div class="-rotate-90 animate-pulse md:pl-20">
+          <div class="-rotate-90 animate-pulse md:pl-16">
             <img
               src="../../assets/icons/see_more.png"
               alt="see_more"
-              class="py-0 px-8 animate-bounce"
+              class="py-0 px-10 animate-bounce"
             />
           </div>
         </div>
@@ -57,16 +62,16 @@
   font-style: normal;
   font-weight: 800;
   font-size: 32px;
-  line-height: 32px;
+  line-height: 42px;
 }
 .sub__title {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 24px;
+  letter-spacing: 2px;
 }
-
 /* .scroll__text {
   font-family: "Mplus 1p";
   font-style: normal;
@@ -82,8 +87,8 @@
 
 @screen sm {
   .super__title {
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 30px;
     letter-spacing: 4px;
   }
   .title {
@@ -103,7 +108,8 @@
   }
   .title {
     font-size: 68px;
-    line-height: 96px;
+    line-height: 74px;
+    font-weight: 800;
   }
   .sub__title {
     font-size: 32px;

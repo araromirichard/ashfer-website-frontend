@@ -1,25 +1,15 @@
 <template>
-  <div>
+  <div class="">
     <nav
       id="navbar"
       class="px-4 py-4 md:py-6 bg-white shadow md:fixed w-full z-10 transition-colors duration-500"
-      :class="{ 'md:bg-transparent md:shadow-none': !showWhiteNav }"
     >
       <div class="container mx-auto flex flex-col md:flex-row item-center">
         <div
           class="flex flex-row w-full items-center justify-between md:basis-1/3"
         >
           <div class="hidden md:block">
-            <img
-              src="../../assets/logo_wht.svg"
-              alt="company logo"
-              :class="{ hidden: showWhiteNav }"
-            />
-            <img
-              src="../../assets/logo.svg"
-              alt="company logo"
-              :class="{ hidden: !showWhiteNav }"
-            />
+            <img src="../../assets/logo.svg" alt="company logo" />
           </div>
           <div class="md:hidden">
             <!-- <img
@@ -69,8 +59,8 @@
           </div>
         </div>
         <div
-          class="text-blacky mt-4 md:mt-0 w-full md:space-x-10 font-poppins font-bold sm:text-sm md:text-lg md:justify-start md:content-center md:items-center md:flex md:flex-row basis-2/3"
-          :class="{ hidden: !isVisible, 'md:text-white': !showWhiteNav }"
+          class="text-blacky mt-4 md:mt-0 w-full md:space-x-10 font-poppins font-bold sm:text-base md:text-lg tracking-n md:justify-end md:content-center md:items-center md:flex md:flex-row basis-2/3"
+          :class="{ hidden: !isVisible }"
         >
           <NavbarLinks to="/" label="Home" />
           <NavbarLinks to="/about-us" label="About Us" />

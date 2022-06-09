@@ -1,14 +1,16 @@
 <template>
   <div class="grid md:grid-cols-2 w-full h-full md:h-4/5 justify-center">
     <div class="flex flex-row justify-center h-full">
-      <div class="flex flex-col justify-center content-start px-8 md:w-3/5">
+      <div
+        class="flex flex-col justify-center content-start px-8 md:w-3/5 text-left"
+      >
         <span class="super__title font-Mplus pt-20">ABOUT US</span>
         <span class="main__title font-poppins pt-5">Who we are</span>
-        <span class="sub__title-one font-poppins font-bold pt-4 tracking-wide">
+        <span class="sub__title-one font-poppins font-bold pt-4">
           We are a diversified enterprise with footprints in West Africa, East
           Africa and Southern Africa.
         </span>
-        <span class="sub__title-one pt-4">
+        <span class="sub__title-one pt-4 text-left">
           Our business interest cuts across various sectors of the economy and
           we are dedicated to meeting the needs of our customers and the
           communities where our businesses operate.
@@ -54,7 +56,6 @@ import AshferButton from "../../components/includes/ashferButton.vue";
   font-style: normal;
   font-size: 18px;
   line-height: 163.35%;
-  text-align: justify;
   color: #776c82;
 }
 </style>

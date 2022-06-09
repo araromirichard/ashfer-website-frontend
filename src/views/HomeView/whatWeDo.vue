@@ -1,13 +1,15 @@
 <template>
   <div class="w-full h-full justify-center md:justify-start bg-secondary">
     <div class="flex flex-row container mx-auto h-full">
-      <div class="flex flex-col justify-center content-start px-8 md:w-3/5">
+      <div
+        class="flex flex-col justify-center content-start px-8 md:w-3/5 text-left"
+      >
         <div class="super__title font-Mplus pt-20 uppercase text-primary">
           our business
         </div>
         <div class="main__title font-poppins pt-5 text-white">What we do</div>
         <div
-          class="sub__title-one font-poppins font-bold pt-4 tracking-wide text-white"
+          class="sub__title-one font-poppins font-bold pt-4 text-white text-left"
         >
           We offer services ranging from
           <span class="text-orange"
@@ -16,7 +18,7 @@
           and <span class="text-orange">Manufacturing</span> to our various
           clients around the world.
         </div>
-        <div class="sub__title-one pt-4 text-white">
+        <div class="sub__title-one pt-4 text-white text-left">
           <p class="pt-4">
             Ashfar is committed to consistent provision of services that meet
             and/or exceed our customer expectations.
@@ -62,7 +64,6 @@ import ServicesCard from "./servicesCard.vue";
   font-weight: 700;
   font-size: 12.6px;
   line-height: 26px;
-  letter-spacing: 6px;
 }
 .main__title {
   font-style: normal;
@@ -75,6 +76,5 @@ import ServicesCard from "./servicesCard.vue";
   font-style: normal;
   font-size: 18px;
   line-height: 163.35%;
-  text-align: justify;
 }
 </style>
