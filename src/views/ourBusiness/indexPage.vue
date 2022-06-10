@@ -2,7 +2,7 @@
   <div class="pt-0 md:pt-[140px]">
     <div class="relative z-0 h-40 md:h-96 w-full">
       <img
-        src="../../../images/Photo.jpg"
+        src="/images/Photo.jpg"
         alt="our business"
         class="w-full h-full object-cover"
       />
@@ -37,7 +37,7 @@
       <BusinesSection
         cardName="power"
         subTitle="generation & distribution"
-        src="../../../images/power-1.jpg"
+        src="/images/power-1.jpg"
       />
       <div
         class="container mx-auto px-8 md:px-10 py-10 space-y-8 font-poppins text-sm sm:text-lg font-normal text-[#776C82]"
@@ -74,7 +74,7 @@
       <BusinesSection
         cardName="haulage"
         subTitle="Nationwide coverage"
-        src="../../../images/HAULAGE-3.jpg"
+        src="/images/HAULAGE-3.jpg"
       />
       <div
         class="container mx-auto px-8 md:px-10 py-10 space-y-8 font-poppins text-sm sm:text-lg font-normal text-[#776C82]"
@@ -95,7 +95,7 @@
       <BusinesSection
         cardName="construction"
         subTitle="building the future"
-        src="../../../images/CONSTRUCTION-1.jpg"
+        src="/images/CONSTRUCTION-1.jpg"
       />
       <div
         class="container mx-auto px-8 md:px-10 py-10 space-y-8 font-poppins text-sm sm:text-lg font-normal text-[#776C82]"
@@ -116,7 +116,7 @@
       <BusinesSection
         cardName="oli and gas"
         subTitle="retail and bulk petroleum products"
-        src="../../../images/OIL-&-GAS-1.jpg"
+        src="/images/OIL-&-GAS-1.jpg"
       />
       <div
         class="container mx-auto px-8 md:px-10 py-10 space-y-8 font-poppins text-sm sm:text-lg font-normal text-[#776C82]"
@@ -150,7 +150,7 @@
       <BusinesSection
         cardName="manufacturing"
         subTitle="water production & distribution"
-        src="../../../images/MANUFACTURING-1.jpg"
+        src="/images/MANUFACTURING-1.jpg"
       />
       <div
         class="container mx-auto px-8 md:px-10 py-10 space-y-8 font-poppins text-sm sm:text-lg font-normal text-[#776C82]"

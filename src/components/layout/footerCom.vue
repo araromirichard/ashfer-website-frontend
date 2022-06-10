@@ -4,7 +4,7 @@
       class="container mx-auto flex text-white mt-20 flex-wrap w-full md:space-x-3 space-y-8"
     >
       <div class="flex flex-col justify-start content-center">
-        <img src="../../../src/assets/footerlogo.svg" class="w-60" alt="" />
+        <img src="/src/assets/footerlogo.svg" class="w-60" alt="" />
         <span class="text-base font-poppins font-bold ml-10"
           >Empowering Nations</span
         >

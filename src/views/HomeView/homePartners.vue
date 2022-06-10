@@ -27,7 +27,7 @@
         data-aos="fade-up"
         data-aos-anchor-placement="center-center"
         data-aos-duration="1500"
-        src="../../../logos/bui-power.png"
+        src="/logos/bui-power.png"
         alt="bui-power"
         class="w-40 sm:w-48 md:w-[242px] md:h-[66px]"
       />
@@ -36,7 +36,7 @@
         data-aos-anchor-placement="center-center"
         data-aos-duration="1500"
         data-aos-delay="500"
-        src="../../../logos/bgn.png"
+        src="/logos/bgn.png"
         alt="bgn"
         class="w-40 h-16 sm:w-48 md:w-[182px] md:h-[89px]"
       />
@@ -45,7 +45,7 @@
         data-aos-anchor-placement="center-center"
         data-aos-duration="1500"
         data-aos-delay="700"
-        src="../../../logos/volta.png"
+        src="/logos/volta.png"
         alt="volta"
         class="w-40 h-14 sm:w-48 md:w-[250px] md:h-[80px]"
       />
@@ -54,7 +54,7 @@
         data-aos-anchor-placement="center-center"
         data-aos-duration="1500"
         data-aos-delay="900"
-        src="../../../logos/phedc.png"
+        src="/logos/phedc.png"
         alt="phedc"
         class="w-40 sm:w-48 md:w-[229px] md:h-[76px]"
       />

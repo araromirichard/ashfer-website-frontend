@@ -9,7 +9,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 w-full h-full">
       <div class="w-full inset-0">
         <img
-          src="../../../images/csr.jpg"
+          src="/images/csr.jpg"
           alt="csr"
           class="object-cover w-full h-full"
         />
@@ -39,7 +39,7 @@
       </div>
     </div>
     <img
-      src="../../../images/call-lady.jpg"
+      src="/images/call-lady.jpg"
       alt="call-lady"
       class="absolute rounded-full w-full h-full object-cover eclipse md:-bottom-[170px] hidden md:block"
     />

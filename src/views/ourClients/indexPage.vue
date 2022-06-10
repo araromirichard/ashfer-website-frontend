@@ -2,7 +2,7 @@
   <div class="pt-0 md:pt-[140px]">
     <div class="relative z-0 h-40 md:h-96 w-full">
       <img
-        src="../../../images/partnerHero.jpg"
+        src="/images/partnerHero.jpg"
         alt="our business"
         class="w-full h-full object-cover"
       />
@@ -35,7 +35,7 @@
         data-aos="fade-up"
         data-aos-anchor-placement="center-center"
         data-aos-duration="1000"
-        src="../../../logos/volta.png"
+        src="/logos/volta.png"
         alt="volta"
         class="w-40 h-14 sm:w-48 md:w-[250px] md:h-[80px]"
       />
@@ -44,7 +44,7 @@
         data-aos-anchor-placement="center-center"
         data-aos-duration="1000"
         data-aos-delay="500"
-        src="../../../logos/bgn.png"
+        src="/logos/bgn.png"
         alt="bgn"
         class="w-40 h-16 sm:w-48 md:w-[182px] md:h-[89px]"
       />
@@ -53,7 +53,7 @@
         data-aos-anchor-placement="center-center"
         data-aos-duration="1000"
         data-aos-delay="650"
-        src="../../../logos/alstom.png"
+        src="/logos/alstom.png"
         alt="alstom"
         class="w-40 sm:w-48 md:w-[240px] md:h-[66px]"
       />
@@ -62,7 +62,7 @@
         data-aos-anchor-placement="center-center"
         data-aos-duration="1000"
         data-aos-delay="800"
-        src="../../../logos/presidencylogo.png"
+        src="/logos/presidencylogo.png"
         alt="presidency"
         class="w-48 sm:52 md:w-[306px] md:h-[63px]"
       />
@@ -71,7 +71,7 @@
         data-aos-anchor-placement="center-center"
         data-aos-duration="1000"
         data-aos-delay="1000"
-        src="../../../logos/time-elect.png"
+        src="/logos/time-elect.png"
         alt="time eletronics logo"
         class="w-48 md:w-[256px] md:h-[72px]"
       />
@@ -80,7 +80,7 @@
         data-aos-anchor-placement="center-center"
         data-aos-duration="1000"
         data-aos-delay="1100"
-        src="../../../logos/ghana-elect.png"
+        src="/logos/ghana-elect.png"
         alt="Ghana elect"
         class="w-40 sm:w-48 md:w-[214px] md:h-[77px]"
       />
@@ -88,7 +88,7 @@
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="1200"
-        src="../../../logos/lusaka.png"
+        src="/logos/lusaka.png"
         alt="lusaka"
         class="w-52 sm:w-52 md:w-[298px] md:h-[52px]"
       />
@@ -96,7 +96,7 @@
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="1250"
-        src="../../../logos/bui-power.png"
+        src="/logos/bui-power.png"
         alt="bui-power"
         class="w-40 sm:w-48 md:w-[242px] md:h-[66px]"
       />
@@ -104,7 +104,7 @@
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="1300"
-        src="../../../logos/bost.png"
+        src="/logos/bost.png"
         alt="bost"
         class="w-48 h-16 sm:w-52 md:w-[233px] md:h-[54px]"
       />
@@ -112,7 +112,7 @@
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="1350"
-        src="../../../logos/phedc.png"
+        src="/logos/phedc.png"
         alt="phedc"
         class="w-40 sm:w-48 md:w-[229px] md:h-[76px]"
       />
@@ -120,7 +120,7 @@
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="1400"
-        src="../../../logos/Zen-Sterling.png"
+        src="/logos/Zen-Sterling.png"
         alt="zen"
         class="w-48 h-10 md:w-[237px] md:h-[57px]"
       />
@@ -128,7 +128,7 @@
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="1700"
-        src="../../../logos/anser.png"
+        src="/logos/anser.png"
         alt="anser"
         class="w-38 h-16 sm:w-48 md:w-[180px] md:h-[74px]"
       />
@@ -136,7 +136,7 @@
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="2000"
-        src="../../../logos/Rural-Electrification-Agency-REA.png"
+        src="/logos/Rural-Electrification-Agency-REA.png"
         alt="REA"
         class="w-40 md:w-[187px] md:h-[113px]"
       />

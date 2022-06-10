@@ -56,7 +56,7 @@
     </div>
     <div class="md:basis-2/5 w-full h-full hidden md:block">
       <img
-        src="../../../images/ourValues.jpg"
+        src="/images/ourValues.jpg"
         alt="a pocket watch"
         class="object-cover w-full h-[340px] md:h-full"
       />

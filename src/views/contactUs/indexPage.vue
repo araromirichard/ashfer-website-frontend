@@ -2,7 +2,7 @@
   <div class="pt-0 md:pt-[140px]">
     <div class="relative z-0 h-40 md:h-96 w-full">
       <img
-        src="../../../images/contactHero.jpg"
+        src="/images/contactHero.jpg"
         alt="our business"
         class="w-full h-full object-cover"
       />
@@ -31,7 +31,7 @@
           </div>
           <div class="flex flex-row content-center py-4">
             <img
-              src="../../../src/assets/icons/pin.svg"
+              src="/src/assets/icons/pin.svg"
               alt="icons"
               class="w-5 sm:w-5 md:w-7 mr-3 md:mr-5"
             />
@@ -48,7 +48,7 @@
           </div>
           <div class="flex flex-row content-center py-4">
             <img
-              src="../../../src/assets/icons/phone.svg"
+              src="/src/assets/icons/phone.svg"
               alt="icons"
               class="w-5 sm:w-5 md:w-7 mr-3 md:mr-5"
             />
@@ -61,7 +61,7 @@
           </div>
           <div class="flex flex-row content-center py-4">
             <img
-              src="../../../src/assets/icons/envelop.svg"
+              src="/src/assets/icons/envelop.svg"
               alt="icons"
               class="w-4 sm:w-5 md:w-5 mr-3 md:mr-5"
             />

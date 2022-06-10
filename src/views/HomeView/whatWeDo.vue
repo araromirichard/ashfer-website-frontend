@@ -43,7 +43,7 @@
         data-aos-anchor-placement="center-center"
         data-aos-duration="1500"
         cardName="power"
-        src="../../../images/POWER.jpg"
+        src="/images/POWER.jpg"
       />
     </router-link>
     <router-link :to="{ name: 'our-business', hash: '#oil' }">
@@ -53,7 +53,7 @@
         data-aos-duration="1500"
         data-aos-delay="500"
         cardName="Oil and gas"
-        src="../../../images/OIL-AND-GAS.jpg"
+        src="/images/OIL-AND-GAS.jpg"
       />
     </router-link>
     <router-link :to="{ name: 'our-business', hash: '#haulage' }">
@@ -63,7 +63,7 @@
         data-aos-duration="1500"
         data-aos-delay="600"
         cardName="haulage"
-        src="../../../images/HAULAGE.jpg"
+        src="/images/HAULAGE.jpg"
       />
     </router-link>
     <router-link :to="{ name: 'our-business', hash: '#construct' }">
@@ -73,7 +73,7 @@
         data-aos-duration="1500"
         data-aos-delay="700"
         cardName="construction"
-        src="../../../images/OUR-BUSINESS.jpg"
+        src="/images/OUR-BUSINESS.jpg"
       />
     </router-link>
     <router-link :to="{ name: 'our-business', hash: '#manufacture' }">
@@ -83,7 +83,7 @@
         data-aos-duration="1500"
         data-aos-delay="800"
         cardName="manufacturing"
-        src="../../../images/MANUFACTURING.jpg"
+        src="/images/MANUFACTURING.jpg"
       />
     </router-link>
   </div>

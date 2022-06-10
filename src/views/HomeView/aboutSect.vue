@@ -31,7 +31,7 @@
       data-aos-delay="1000"
     >
       <img
-        src="../../../images/about-sect.jpg"
+        src="/images/about-sect.jpg"
         alt="about-sect"
         class="w-full object-cover h-full"
       />
