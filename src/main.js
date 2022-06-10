@@ -9,7 +9,6 @@ import "./index.css";
 
 const app = createApp(App);
 
-
 app.use(router);
 app.use(MotionPlugin);
 app.mount("#app");

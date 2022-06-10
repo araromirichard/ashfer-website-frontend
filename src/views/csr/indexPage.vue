@@ -2,7 +2,7 @@
   <div class="pt-0 md:pt-[140px]">
     <div class="relative z-0 h-40 md:h-96 w-full">
       <img
-        src="../../../public/images/csrHero.jpg"
+        src="../../../images/csrHero.jpg"
         alt="our business"
         class="w-full h-full object-cover"
       />
@@ -41,8 +41,8 @@
         </p>
       </div>
       <div class="space-y-4">
-        <img src="../../../public/images/CSR-PAGE-2.jpg" alt="" />
-        <img src="../../../public/images/CSR-PAGE.jpg" alt="" />
+        <img src="../../../images/CSR-PAGE-2.jpg" alt="" />
+        <img src="../../../images/CSR-PAGE.jpg" alt="" />
       </div>
     </div>
   </div>

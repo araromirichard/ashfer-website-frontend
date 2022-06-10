@@ -2,7 +2,7 @@
   <div class="pt-0 md:pt-[140px]">
     <div class="relative z-0 h-40 md:h-96 w-full">
       <img
-        src="../../../public/images/partnerHero.jpg"
+        src="../../../images/partnerHero.jpg"
         alt="our business"
         class="w-full h-full object-cover"
       />

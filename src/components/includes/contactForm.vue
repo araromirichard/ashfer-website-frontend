@@ -3,7 +3,6 @@
     class="w-full md:container mx-auto flex justify-center mt-8 md:mt-14"
     data-aos="fade-up"
     data-aos-duration="1000"
-    
   >
     <div class="w-full bg-[#D9D9D9] rounded-sm md:p-8">
       <form class="w-full">
