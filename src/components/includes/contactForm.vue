@@ -1,6 +1,11 @@
 <template>
-  <div class="w-full md:container mx-auto flex justify-center mt-8 md:mt-14">
-    <div class="w-full md:w-4/5 bg-[#D9D9D9] rounded-sm md:p-8">
+  <div
+    class="w-full md:container mx-auto flex justify-center mt-8 md:mt-14"
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    
+  >
+    <div class="w-full bg-[#D9D9D9] rounded-sm md:p-8">
       <form class="w-full">
         <div class="grid grid-cols-1 md:grid-cols-2 md:gap-6">
           <div>
@@ -58,14 +63,14 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import AshferButton from "./ashferButton.vue";
-export default {
-  setup() {
-    return {};
-  },
-  components: { AshferButton },
-};
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+});
 </script>
 
 <style lang="scss" scoped></style>

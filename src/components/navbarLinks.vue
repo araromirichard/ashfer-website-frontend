@@ -27,4 +27,17 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.ashfer-active-link {
+  color: #f15a29;
+  /* background-color: #555c75; */
+}
+
+@media only screen and (min-width: 768px) {
+  .ashfer-active-link {
+    border-bottom: 4px solid #f15a29;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+}
+</style>

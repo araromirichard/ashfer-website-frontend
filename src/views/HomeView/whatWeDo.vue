@@ -37,25 +37,66 @@
   <div
     class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 py-20 sm:pt-20 sm:pb-40 px-8 sm:px-16 bg-secondary h-full w-full"
   >
-    <ServicesCard cardName="power" src="../../../images/POWER.jpg" />
-    <ServicesCard
-      cardName="Oil and gas"
-      src="../../../images/OIL-AND-GAS.jpg"
-    />
-    <ServicesCard cardName="haulage" src="../../../images/HAULAGE.jpg" />
-    <ServicesCard
-      cardName="construction"
-      src="../../../images/OUR-BUSINESS.jpg"
-    />
-    <ServicesCard
-      cardName="manufacturing"
-      src="../../../images/MANUFACTURING.jpg"
-    />
+    <router-link :to="{ name: 'our-business', hash: '#power' }">
+      <ServicesCard
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-center"
+        data-aos-duration="1500"
+        cardName="power"
+        src="../../../images/POWER.jpg"
+      />
+    </router-link>
+    <router-link :to="{ name: 'our-business', hash: '#oil' }">
+      <ServicesCard
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-center"
+        data-aos-duration="1500"
+        data-aos-delay="500"
+        cardName="Oil and gas"
+        src="../../../images/OIL-AND-GAS.jpg"
+      />
+    </router-link>
+    <router-link :to="{ name: 'our-business', hash: '#haulage' }">
+      <ServicesCard
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-center"
+        data-aos-duration="1500"
+        data-aos-delay="600"
+        cardName="haulage"
+        src="../../../images/HAULAGE.jpg"
+      />
+    </router-link>
+    <router-link :to="{ name: 'our-business', hash: '#construct' }">
+      <ServicesCard
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-center"
+        data-aos-duration="1500"
+        data-aos-delay="700"
+        cardName="construction"
+        src="../../../images/OUR-BUSINESS.jpg"
+      />
+    </router-link>
+    <router-link :to="{ name: 'our-business', hash: '#manufacture' }">
+      <ServicesCard
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-center"
+        data-aos-duration="1500"
+        data-aos-delay="800"
+        cardName="manufacturing"
+        src="../../../images/MANUFACTURING.jpg"
+      />
+    </router-link>
   </div>
 </template>
 
 <script setup>
 import ServicesCard from "./servicesCard.vue";
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+});
 </script>
 
 <style scoped>

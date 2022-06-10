@@ -14,13 +14,35 @@
       >
         <div class="flex flex-col justify-center pl-2 md:px-0">
           <div
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="500"
             class="super__title pb-4 md:pb-0 text-white invisible md:visible"
           >
             WE ARE ASHFAR
           </div>
-          <div class="title pt-1 pb-1.5 md:pt-12 md:pb-0">Ashfar,</div>
-          <div class="title pb-2 md:py-3">Empowering Nations</div>
-          <div class="sub__title pt-6 md:pt-4 w-full md:w-[600px]">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="600"
+            class="title pt-1 pb-1.5 md:pt-12 md:pb-0"
+          >
+            Ashfar,
+          </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+            class="title pb-2 md:py-3"
+          >
+            Empowering Nations
+          </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1000"
+            class="sub__title pt-6 md:pt-4 w-full md:w-[600px]"
+          >
             Power | Haulage | Construction | Oil and Gas | Manufacturing
           </div>
         </div>
@@ -46,7 +68,14 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+});
+</script>
 
 <style scoped>
 .super__title {

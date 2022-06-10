@@ -9,7 +9,7 @@
           class="flex flex-row w-full items-center justify-between md:basis-1/3"
         >
           <div class="hidden md:block">
-            <img src="../../assets/logo.svg" alt="company logo" />
+            <img src="../../assets/logo1.png" alt="company logo" />
           </div>
           <div class="md:hidden">
             <!-- <img
@@ -18,7 +18,7 @@
               :class="{ hidden: showWhiteNav }"
             /> -->
             <img
-              src="../../assets/logo.svg"
+              src="../../assets/logo1.png"
               alt="company logo"
               :class="{ block: !showWhiteNav }"
             />

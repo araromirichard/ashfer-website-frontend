@@ -33,7 +33,7 @@
         </p>
       </div>
     </div>
-    <div>
+    <div id="power" data-aos="fade-up" data-aos-duration="500">
       <BusinesSection
         cardName="power"
         subTitle="generation & distribution"
@@ -70,7 +70,7 @@
         </p>
       </div>
     </div>
-    <div>
+    <div id="haulage" data-aos="fade-up" data-aos-duration="500">
       <BusinesSection
         cardName="haulage"
         subTitle="Nationwide coverage"
@@ -91,7 +91,7 @@
         </p>
       </div>
     </div>
-    <div>
+    <div id="construct" data-aos="fade-up" data-aos-duration="500">
       <BusinesSection
         cardName="construction"
         subTitle="building the future"
@@ -112,7 +112,7 @@
         </p>
       </div>
     </div>
-    <div>
+    <div id="oil" data-aos="fade-up" data-aos-duration="500">
       <BusinesSection
         cardName="oli and gas"
         subTitle="retail and bulk petroleum products"
@@ -141,7 +141,12 @@
         </p>
       </div>
     </div>
-    <div class="mb-20">
+    <div
+      id="manufacture"
+      class="mb-20"
+      data-aos="fade-up"
+      data-aos-duration="500"
+    >
       <BusinesSection
         cardName="manufacturing"
         subTitle="water production & distribution"
@@ -164,9 +169,16 @@
 
 <script>
 import BusinesSection from "./businesSection.vue";
+import { onMounted } from "vue";
+import AOS from "aos";
 export default {
   setup() {
-    return {};
+    onMounted(() => {
+      AOS.init();
+    });
+    return {
+      onMounted,
+    };
   },
   components: { BusinesSection },
 };

@@ -2,6 +2,8 @@
   <div class="grid md:grid-cols-2 w-full h-full md:h-4/5 justify-center">
     <div class="flex flex-row justify-center h-full">
       <div
+        data-aos="fade-up"
+        data-aos-duration="3000"
         class="flex flex-col justify-center content-start px-8 md:w-3/5 text-left"
       >
         <span class="super__title font-Mplus pt-20">ABOUT US</span>
@@ -16,10 +18,18 @@
           communities where our businesses operate.
         </span>
         <!-- ashfer button -->
-        <AshferButton button-text="learn more" />
+        <AshferButton
+          @click="$router.push({ name: 'about' })"
+          button-text="learn more"
+        />
       </div>
     </div>
-    <div class="px-8 py-10 md:px-0 bg-cover w-full h-full">
+    <div
+      class="px-8 py-10 md:px-0 bg-cover w-full h-full"
+      data-aos="zoom-in"
+      data-aos-duration="1500"
+      data-aos-delay="1000"
+    >
       <img
         src="../../../images/about-sect.jpg"
         alt="about-sect"
@@ -31,6 +41,12 @@
 
 <script setup>
 import AshferButton from "../../components/includes/ashferButton.vue";
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+});
 </script>
 
 <style scoped>

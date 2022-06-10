@@ -30,13 +30,37 @@ const router = createRouter({
         {
             path: "/contact",
             name: "contact-us",
-            // route level code-splitting
-            // this generates a separate chunk (About.[hash].js) for this route
-            // which is lazy-loaded when the route is visited.
             component: () =>
                 import ("../views/contactUs/indexPage.vue"),
         },
+        {
+            path: "/our-clients",
+            name: "our clients",
+            component: () =>
+                import ("../views/ourClients/indexPage.vue"),
+        },
+        // {
+        //     path: "/blog",
+        //     name: "contact-us",
+        //     component: () =>
+        //         import ("../views/contactUs/indexPage.vue"),
+        // },
+        {
+            path: "/csr",
+            name: "csr",
+            component: () =>
+                import ("../views/csr/indexPage.vue"),
+        },
     ],
+    scrollBehavior(to, from, savedPosition) {
+        if (to.hash) {
+            return {
+                el: to.hash,
+                behavior: "smooth",
+            };
+        }
+    },
+    linkActiveClass: "ashfer-active-link",
 });
 
 export default router;

@@ -5,18 +5,21 @@
       class="px-4 py-4 md:py-6 bg-white shadow md:fixed w-full z-10 transition-colors duration-500"
       :class="{ 'md:bg-transparent md:shadow-none': !showWhiteNav }"
     >
-      <div class="container mx-auto flex flex-col md:flex-row item-center">
+      <div
+        class="container mx-auto flex flex-col md:flex-row item-center transition-all ease-out duration-500 md:transition-none"
+      >
         <div
           class="flex flex-row w-full items-center justify-between md:basis-1/3"
         >
           <div class="hidden md:block">
             <img
-              src="../../assets/logo_wht.svg"
+              src="../../assets/logo_wht.png"
               alt="company logo"
+              class="w-56"
               :class="{ hidden: showWhiteNav }"
             />
             <img
-              src="../../assets/logo.svg"
+              src="../../assets/logo1.png"
               alt="company logo"
               :class="{ hidden: !showWhiteNav }"
             />
@@ -28,7 +31,7 @@
               :class="{ hidden: showWhiteNav }"
             /> -->
             <img
-              src="../../assets/logo.svg"
+              src="../../assets/logo1.png"
               alt="company logo"
               :class="{ block: !showWhiteNav }"
             />

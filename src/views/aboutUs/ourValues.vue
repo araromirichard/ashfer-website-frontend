@@ -5,7 +5,11 @@
     <div
       class="md:basis-4/5 bg-primary flex justify-center content-center px-4 md:pl-20"
     >
-      <div class="px-8 py-10 text-white">
+      <div
+        class="px-8 py-10 text-white"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+      >
         <div
           class="flex flex-col md:flex-row md:gap-32 pt-4 pb-3 md:pt-8 md:pb-4 text-left"
         >
@@ -61,9 +65,16 @@
 </template>
 
 <script>
+import { onMounted } from "vue";
+import AOS from "aos";
 export default {
   setup() {
-    return {};
+    onMounted(() => {
+      AOS.init();
+    });
+    return {
+      onMounted,
+    };
   },
 };
 </script>

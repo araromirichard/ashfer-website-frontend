@@ -1,5 +1,11 @@
 <template>
-  <div class="parent relative py-10 h-2/4 flex justify-center items-end">
+  <div
+    class="parent relative py-10 h-2/4 flex justify-center items-end"
+    data-aos="fade-up"
+    data-aos-anchor-placement="center-center"
+    data-aos-duration="1500"
+    data-aos-delay="900"
+  >
     <div class="grid grid-cols-1 sm:grid-cols-2 w-full h-full">
       <div class="w-full inset-0">
         <img
@@ -28,7 +34,7 @@
           where universal access to electricity have not been realized.
         </div>
         <div class="pb-20">
-          <AshferButton buttonText="learn more" />
+          <AshferButton @click="$router.push('/csr')" buttonText="learn more" />
         </div>
       </div>
     </div>
@@ -50,15 +56,15 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import AshferButton from "../../components/includes/ashferButton.vue";
 import ContactForm from "../../components/includes/contactForm.vue";
-export default {
-  setup() {
-    return {};
-  },
-  components: { AshferButton, ContactForm },
-};
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+});
 </script>
 
 <style>

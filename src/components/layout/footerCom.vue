@@ -42,19 +42,19 @@
 
           <ul>
             <li class="links">
-              <router-link to="/">Power</router-link>
+              <router-link :to="{ name: 'our-business', hash: '#power' }">Power</router-link>
             </li>
             <li class="links">
-              <router-link to="/about-us">Oil & Gas</router-link>
+              <router-link :to="{ name: 'our-business', hash: '#oil' }">Oil & Gas</router-link>
             </li>
             <li class="links">
-              <router-link to="/our-business">Haulage</router-link>
+              <router-link :to="{ name: 'our-business', hash: '#haulage' }">Haulage</router-link>
             </li>
             <li class="links">
-              <router-link to="/">Manufacturing</router-link>
+              <router-link :to="{ name: 'our-business', hash: '#manufacture' }">Manufacturing</router-link>
             </li>
             <li class="links">
-              <router-link to="/contact">Construction</router-link>
+              <router-link :to="{ name: 'our-business', hash: '#construct' }">Construction</router-link>
             </li>
           </ul>
         </div>

@@ -16,6 +16,8 @@
       </div>
     </div>
     <div
+      data-aos="zoom-in"
+      data-aos-duration="1500"
       class="container mx-auto w-full flex flex-col justify-center py-10 md:py-14 px-8 md:px-0"
     >
       <div
@@ -81,9 +83,16 @@
 
 <script>
 import OurValues from "./ourValues.vue";
+import { onMounted } from "vue";
+import AOS from "aos";
 export default {
   setup() {
-    return {};
+    onMounted(() => {
+      AOS.init();
+    });
+    return {
+      onMounted,
+    };
   },
   components: { OurValues },
 };
