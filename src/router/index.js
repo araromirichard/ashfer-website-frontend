@@ -47,6 +47,7 @@ const router = createRouter({
       component: () => import("../views/csr/indexPage.vue"),
     },
   ],
+  // eslint-disable-next-line no-unused-vars
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
       return {
