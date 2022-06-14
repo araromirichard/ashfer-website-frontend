@@ -12,7 +12,7 @@
       <div class="flex flex-wrap my-4 sm:my-6 md:my-0">
         <div class="font-poppins col-span-12 mx-10 my-8 md:my-0">
           <span
-            class="text-lg font-poppins uppercase font-medium mb-4 border-b-2 border-primary tracking-buttonWide justify-center"
+            class="text-base font-poppins uppercase font-medium mb-4 border-b-2 border-primary tracking-buttonWide justify-center"
             >menu</span
           >
 
@@ -36,7 +36,7 @@
         </div>
         <div class="font-poppins mx-10 my-8 md:my-0">
           <span
-            class="text-lg font-poppins uppercase font-medium mb-4 border-b-2 border-primary tracking-buttonWide justify-center"
+            class="text-base font-poppins uppercase font-medium mb-4 border-b-2 border-primary tracking-buttonWide justify-center"
             >services</span
           >
 
@@ -70,7 +70,7 @@
         </div>
         <div class="font-poppins mx-10 my-8 md:my-0">
           <span
-            class="text-lg font-poppins uppercase font-medium mb-4 border-b-2 border-primary tracking-buttonWide justify-center"
+            class="text-base font-poppins uppercase font-medium mb-4 border-b-2 border-primary tracking-buttonWide justify-center"
             >contact us</span
           >
 
@@ -90,11 +90,8 @@
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-              <a
-                class="email px-2 md:px-4"
-                href="mailto:contact@Ashfarglobal.com"
-              >
-                contact@Ashfarglobal.com</a
+              <a class="email px-2 md:px-4" href="mailto:info@ashfargroup.com">
+                info@ashfargroup.com</a
               >
             </li>
             <li class="links text-sm flex">
@@ -112,8 +109,8 @@
                   d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
                 />
               </svg>
-              <a class="phone px-2 md:px-4" href="tel:+233 84 63787 8947"
-                >084 63787 8947</a
+              <a class="phone px-2 md:px-4" href="tel:+233 55 247 9790"
+                >+233 55 247 9790</a
               >
             </li>
           </ul>
@@ -121,7 +118,7 @@
       </div>
       <div class="font-poppins mx-10 md:mx-0 my-8 md:my-0">
         <span
-          class="text-lg font-poppins uppercase font-medium mb-4 border-b-2 border-primary tracking-buttonWide justify-center"
+          class="text-base font-poppins uppercase font-medium mb-4 border-b-2 border-primary tracking-buttonWide justify-center"
           >follow us</span
         >
 
@@ -210,7 +207,7 @@ export default {
 <style scoped>
 .links {
   padding-top: 1rem;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 .email .phone {

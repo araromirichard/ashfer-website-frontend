@@ -8,11 +8,7 @@ import FooterCom from "./components/layout/footerCom.vue";
   <div>
     <navbarComponentVue v-if="$route.name == 'home'" />
     <navbarComponentVue2 v-else />
-    <router-view v-slot="{ Component, route }">
-      <transition mode="out-in" :name="route.meta.transition || 'fade'">
-        <component :is="Component" />
-      </transition>
-    </router-view>
+    <router-view> </router-view>
 
     <FooterCom />
   </div>

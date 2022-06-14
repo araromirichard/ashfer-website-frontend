@@ -39,7 +39,7 @@
             data-aos="zoom-in"
             data-aos-duration="1500"
             data-aos-delay="1000"
-            class="sub__title pt-6 md:pt-4 w-full md:w-[600px]"
+            class="sub__title pt-6 md:pt-4 w-[250px] md:w-[600px]"
           >
             Power | Haulage | Construction | Oil and Gas | Manufacturing
           </div>

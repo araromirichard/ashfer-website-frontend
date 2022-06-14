@@ -21,14 +21,14 @@
       </div>
     </div>
     <div
-      class="flex flex-wrap justify-center content-center gap-6 gap-y-6 sm:gap-14 py-6"
+      class="flex flex-wrap justify-center content-center gap-32 gap-y-6 sm:gap-14 py-6"
     >
       <img
         data-aos="fade-up"
         data-aos-duration="500"
         src="/logos/bui-power.png"
         alt="bui-power"
-        class="w-40 sm:w-48 md:w-[242px] md:h-[66px]"
+        class="w-28 h-12 sm:w-48 md:w-[242px] md:h-[66px]"
       />
       <img
         data-aos="fade-up"
@@ -36,7 +36,7 @@
         data-aos-delay="100"
         src="/logos/bgn.png"
         alt="bgn"
-        class="w-40 h-16 sm:w-48 md:w-[182px] md:h-[89px]"
+        class="w-24 h-12 sm:w-48 md:w-[182px] md:h-[89px]"
       />
       <img
         data-aos="fade-up"
@@ -44,7 +44,7 @@
         data-aos-delay="150"
         src="/logos/volta.png"
         alt="volta"
-        class="w-40 h-14 sm:w-48 md:w-[250px] md:h-[80px]"
+        class="w-24 h-10 sm:w-48 md:w-[250px] md:h-[80px]"
       />
       <img
         data-aos="fade-up"
@@ -52,7 +52,7 @@
         data-aos-delay="200"
         src="/logos/phedc.png"
         alt="phedc"
-        class="w-40 sm:w-48 md:w-[229px] md:h-[76px]"
+        class="w-24 h-10 sm:w-48 md:w-[229px] md:h-[76px]"
       />
     </div>
     <AshferButton

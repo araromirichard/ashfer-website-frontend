@@ -40,7 +40,7 @@
     <router-link :to="{ name: 'our-business', hash: '#power' }">
       <ServicesCard
         data-aos="fade-up"
-        data-aos-duration="1500"
+        data-aos-duration="500"
         cardName="power"
         src="/images/POWER.jpg"
       />
@@ -48,8 +48,8 @@
     <router-link :to="{ name: 'our-business', hash: '#oil' }">
       <ServicesCard
         data-aos="fade-up"
-        data-aos-duration="1500"
-        data-aos-delay="500"
+        data-aos-duration="500"
+        data-aos-delay="300"
         cardName="Oil and gas"
         src="/images/OIL-AND-GAS.jpg"
       />
@@ -57,8 +57,8 @@
     <router-link :to="{ name: 'our-business', hash: '#haulage' }">
       <ServicesCard
         data-aos="fade-up"
-        data-aos-duration="1500"
-        data-aos-delay="600"
+        data-aos-duration="500"
+        data-aos-delay="350"
         cardName="haulage"
         src="/images/HAULAGE.jpg"
       />
@@ -66,8 +66,8 @@
     <router-link :to="{ name: 'our-business', hash: '#construct' }">
       <ServicesCard
         data-aos="fade-up"
-        data-aos-duration="1500"
-        data-aos-delay="700"
+        data-aos-duration="500"
+        data-aos-delay="400"
         cardName="construction"
         src="/images/OUR-BUSINESS.jpg"
       />
@@ -75,8 +75,8 @@
     <router-link :to="{ name: 'our-business', hash: '#manufacture' }">
       <ServicesCard
         data-aos="fade-up"
-        data-aos-duration="1500"
-        data-aos-delay="800"
+        data-aos-duration="500"
+        data-aos-delay="450"
         cardName="manufacturing"
         src="/images/MANUFACTURING.jpg"
       />

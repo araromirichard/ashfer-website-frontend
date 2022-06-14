@@ -54,8 +54,8 @@
             />
             <div>
               <span
-                class="font-poppins text-xs sm:text-sm md:text-lg text-black font-bold tracking-buttonWide uppercase"
-                >contact@AshfarGROUP.com</span
+                class="font-poppins text-xs sm:text-sm md:text-lg text-black font-bold tracking-buttonWide lowercase"
+                >info@ashfargroup.com</span
               >
             </div>
           </div>
@@ -68,7 +68,7 @@
             <div>
               <span
                 class="font-poppins text-xs sm:text-sm md:text-lg text-black font-bold tracking-buttonWide"
-                >244 78790 6768</span
+                >+233 55 247 9790</span
               >
             </div>
           </div>
