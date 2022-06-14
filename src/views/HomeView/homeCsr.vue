@@ -2,9 +2,8 @@
   <div
     class="parent relative py-10 h-2/4 flex justify-center items-end"
     data-aos="fade-up"
-    data-aos-anchor-placement="center-center"
-    data-aos-duration="1500"
-    data-aos-delay="900"
+    data-aos-duration="900"
+    data-aos-delay="200"
   >
     <div class="grid grid-cols-1 sm:grid-cols-2 w-full h-full">
       <div class="w-full inset-0">

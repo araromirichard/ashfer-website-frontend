@@ -8,19 +8,17 @@
     <div
       class="absolute inset-0 bg-gradient-to-r from-deepOrange opacity-60"
     ></div>
-    <div class="absolute inset-0 text-white px-4 md:px-0">
-      <div
-        class="container mx-auto h-full w-full flex flex-row md:justify-around"
-      >
-        <div class="flex flex-col justify-center pl-2 md:px-0">
-          <div
+    <div class="absolute inset-0 text-white px-4 sm:px-0">
+      <div class="container mx-auto h-full w-full flex flex-row">
+        <div class="flex flex-col justify-center pl-2 sm:px-8">
+          <!-- <div
             data-aos="zoom-in"
             data-aos-duration="1500"
-            data-aos-delay="500"
-            class="super__title pb-4 md:pb-0 text-white invisible md:visible"
+            data-aos-delay="200"
+            class="super__title pb-4 sm:pb-0 text-white invisible sm:visible"
           >
             WE ARE ASHFAR
-          </div>
+          </div> -->
           <div
             data-aos="zoom-in"
             data-aos-duration="1500"
@@ -46,22 +44,19 @@
             Power | Haulage | Construction | Oil and Gas | Manufacturing
           </div>
         </div>
-        <div
-          class="flex flex-row mx-auto content-center items-start invisible md:visible md:rotate-90"
-        >
-          <p
-            class="font-Mplus text-xs md:text-lg font-medium tracking-widest uppercase"
+      </div>
+      <div
+        class="flex flex-row mx-auto w-[600px] content-center items-center invisible md:visible md:rotate-90"
+      >
+        <div class="-rotate-90 animate-pulse md:pl-20">
+          <img
+            src="../../assets/icons/see_more.png"
+            alt="see_more"
+            class="py-0 px-10 animate-bounce w-15"
+          />
+          <span class="text-xs sm:text-sm md:text-lg justify-center font-Mplus"
+            >scroll to see more</span
           >
-            Scroll to see more
-          </p>
-
-          <div class="-rotate-90 animate-pulse md:pl-16">
-            <img
-              src="../../assets/icons/see_more.png"
-              alt="see_more"
-              class="py-0 px-10 animate-bounce"
-            />
-          </div>
         </div>
       </div>
     </div>
@@ -114,7 +109,8 @@ onMounted(() => {
 
 /* media queries for devices */
 
-@screen sm {
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
   .super__title {
     font-size: 12px;
     line-height: 30px;
@@ -129,7 +125,9 @@ onMounted(() => {
     line-height: 24px;
   }
 }
-@screen md {
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
   .super__title {
     font-size: 20px;
     line-height: 48px;

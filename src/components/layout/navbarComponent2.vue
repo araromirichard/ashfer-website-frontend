@@ -2,16 +2,16 @@
   <div class="">
     <nav
       id="navbar"
-      class="px-4 py-4 md:py-6 bg-white shadow md:fixed w-full z-10 transition-colors duration-500"
+      class="px-4 py-4 sm:py-6 bg-white shadow sm:fixed w-full z-10 transition-colors duration-300"
     >
-      <div class="container mx-auto flex flex-col md:flex-row item-center">
+      <div class="container mx-auto flex flex-col sm:flex-row item-center">
         <div
-          class="flex flex-row w-full items-center justify-between md:basis-1/3"
+          class="flex flex-row w-full items-center justify-between sm:basis-1/4"
         >
-          <div class="hidden md:block">
+          <div class="hidden sm:block">
             <img src="../../assets/logo1.png" alt="company logo" />
           </div>
-          <div class="md:hidden">
+          <div class="sm:hidden">
             <!-- <img
               src="../../assets/logo_wht.svg"
               alt="company logo"
@@ -24,7 +24,7 @@
             />
           </div>
           <div>
-            <button v-show="!isVisible" class="md:hidden" @click="toggle">
+            <button v-show="!isVisible" class="sm:hidden" @click="toggle">
               <svg
                 class="w-10 h-10"
                 fill="none"
@@ -40,7 +40,7 @@
                 ></path>
               </svg>
             </button>
-            <button v-show="isVisible" class="md:hidden" @click="toggle">
+            <button v-show="isVisible" class="sm:hidden" @click="toggle">
               <svg
                 class="w-10 h-10"
                 fill="none"
@@ -59,7 +59,7 @@
           </div>
         </div>
         <div
-          class="text-blacky mt-4 md:mt-0 w-full md:space-x-10 font-poppins font-bold sm:text-base md:text-lg tracking-n md:justify-end md:content-center md:items-center md:flex md:flex-row basis-2/3"
+          class="text-blacky mt-4 sm:mt-0 w-full sm:space-x-10 font-poppins font-bold sm:text-base md:text-lg sm:tracking-buttonWide sm:justify-end sm:content-center sm:items-center sm:flex sm:flex-row basis-3/4"
           :class="{ hidden: !isVisible }"
         >
           <NavbarLinks to="/" label="Home" />

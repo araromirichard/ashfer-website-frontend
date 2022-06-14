@@ -33,7 +33,7 @@
         </p>
       </div>
     </div>
-    <div id="power" data-aos="fade-up" data-aos-duration="500">
+    <div id="power">
       <BusinesSection
         cardName="power"
         subTitle="generation & distribution"
@@ -70,7 +70,7 @@
         </p>
       </div>
     </div>
-    <div id="haulage" data-aos="fade-up" data-aos-duration="500">
+    <div id="haulage">
       <BusinesSection
         cardName="haulage"
         subTitle="Nationwide coverage"
@@ -91,7 +91,7 @@
         </p>
       </div>
     </div>
-    <div id="construct" data-aos="fade-up" data-aos-duration="500">
+    <div id="construct">
       <BusinesSection
         cardName="construction"
         subTitle="building the future"
@@ -112,7 +112,7 @@
         </p>
       </div>
     </div>
-    <div id="oil" data-aos="fade-up" data-aos-duration="500">
+    <div id="oil">
       <BusinesSection
         cardName="oli and gas"
         subTitle="retail and bulk petroleum products"
@@ -141,12 +141,7 @@
         </p>
       </div>
     </div>
-    <div
-      id="manufacture"
-      class="mb-20"
-      data-aos="fade-up"
-      data-aos-duration="500"
-    >
+    <div id="manufacture" class="mb-20">
       <BusinesSection
         cardName="manufacturing"
         subTitle="water production & distribution"

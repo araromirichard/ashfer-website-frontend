@@ -68,18 +68,16 @@
       />
       <img
         data-aos="fade-up"
-        data-aos-anchor-placement="center-center"
         data-aos-duration="1000"
-        data-aos-delay="1000"
+        data-aos-delay="500"
         src="/logos/time-elect.png"
         alt="time eletronics logo"
         class="w-48 md:w-[256px] md:h-[72px]"
       />
       <img
         data-aos="fade-up"
-        data-aos-anchor-placement="center-center"
         data-aos-duration="1000"
-        data-aos-delay="1100"
+        data-aos-delay="550"
         src="/logos/ghana-elect.png"
         alt="Ghana elect"
         class="w-40 sm:w-48 md:w-[214px] md:h-[77px]"
@@ -87,7 +85,7 @@
       <img
         data-aos="fade-up"
         data-aos-duration="1000"
-        data-aos-delay="1200"
+        data-aos-delay="600"
         src="/logos/lusaka.png"
         alt="lusaka"
         class="w-52 sm:w-52 md:w-[298px] md:h-[52px]"
@@ -95,7 +93,7 @@
       <img
         data-aos="fade-up"
         data-aos-duration="1000"
-        data-aos-delay="1250"
+        data-aos-delay="650"
         src="/logos/bui-power.png"
         alt="bui-power"
         class="w-40 sm:w-48 md:w-[242px] md:h-[66px]"
@@ -103,7 +101,7 @@
       <img
         data-aos="fade-up"
         data-aos-duration="1000"
-        data-aos-delay="1300"
+        data-aos-delay="700"
         src="/logos/bost.png"
         alt="bost"
         class="w-48 h-16 sm:w-52 md:w-[233px] md:h-[54px]"
@@ -111,7 +109,7 @@
       <img
         data-aos="fade-up"
         data-aos-duration="1000"
-        data-aos-delay="1350"
+        data-aos-delay="750"
         src="/logos/phedc.png"
         alt="phedc"
         class="w-40 sm:w-48 md:w-[229px] md:h-[76px]"
@@ -119,7 +117,7 @@
       <img
         data-aos="fade-up"
         data-aos-duration="1000"
-        data-aos-delay="1400"
+        data-aos-delay="800"
         src="/logos/Zen-Sterling.png"
         alt="zen"
         class="w-48 h-10 md:w-[237px] md:h-[57px]"
@@ -127,7 +125,7 @@
       <img
         data-aos="fade-up"
         data-aos-duration="1000"
-        data-aos-delay="1700"
+        data-aos-delay="850"
         src="/logos/anser.png"
         alt="anser"
         class="w-38 h-16 sm:w-48 md:w-[180px] md:h-[74px]"
@@ -135,7 +133,7 @@
       <img
         data-aos="fade-up"
         data-aos-duration="1000"
-        data-aos-delay="2000"
+        data-aos-delay="900"
         src="/logos/Rural-Electrification-Agency-REA.png"
         alt="REA"
         class="w-40 md:w-[187px] md:h-[113px]"

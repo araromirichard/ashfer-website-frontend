@@ -28,7 +28,7 @@
       class="px-8 py-10 md:px-0 bg-cover w-full h-full"
       data-aos="zoom-in"
       data-aos-duration="1500"
-      data-aos-delay="1000"
+      data-aos-delay="300"
     >
       <img
         src="/images/about-sect.jpg"

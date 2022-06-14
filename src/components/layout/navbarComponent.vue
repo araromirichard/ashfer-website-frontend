@@ -2,12 +2,12 @@
   <div>
     <nav
       id="navbar"
-      class="px-4 py-4 md:py-6 bg-white shadow md:fixed w-full z-10 transition-colors duration-500"
-      :class="{ 'md:bg-transparent md:shadow-none': !showWhiteNav }"
+      class="px-4 py-4 sm:py-6 bg-white shadow sm:fixed w-full z-10 transition-colors duration-500"
+      :class="{ 'sm:bg-transparent sm:shadow-none': !showWhiteNav }"
     >
-      <div class="container mx-auto flex flex-col md:flex-row item-center">
+      <div class="container mx-auto flex flex-col sm:flex-row item-center">
         <div
-          class="flex flex-row w-full items-center justify-between md:basis-1/3"
+          class="flex flex-row w-full items-center justify-between sm:basis-1/4"
         >
           <div class="hidden md:block">
             <img
@@ -70,7 +70,7 @@
           </div>
         </div>
         <div
-          class="menu-nav text-blacky mt-4 md:mt-0 w-full md:space-x-10 font-poppins font-bold sm:text-sm md:text-lg md:justify-start md:content-center md:items-center md:flex md:flex-row basis-2/3 transition-all ease-out duration-500 md:transition-none"
+          class="menu-nav mt-4 sm:mt-0 w-full sm:space-x-6 md:space-x-10  sm:justify-start sm:content-center sm:items-center sm:flex sm:flex-row basis-3/4 transition-all ease-out duration-400 sm:transition-none"
           :class="{ hidden: !isVisible, 'md:text-white': !showWhiteNav }"
         >
           <NavbarLinks @click="toggle" to="/" label="Home" />
@@ -121,12 +121,5 @@ export default {
 </script>
 
 <style scoped>
-.menu-nav {
-  transform: translateY(0);
-  transition: transform 0.3s linear;
-}
 
-.menu-nav {
-  transform: translateY(-100%);
-}
 </style>
