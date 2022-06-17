@@ -9,7 +9,7 @@
       <div class="absolute inset-0 bg-[#f15a29] opacity-10"></div>
       <div class="absolute inset-0">
         <div
-          class="container mx-auto w-full h-full flex items-center justify-center sm:justify-start text-white text-lg md:text-[54px] font-bold font-poppins capitalize"
+          class="container mx-auto w-full h-full flex items-center justify-start px-8 sm:px-0 sm:justify-start text-white text-lg md:text-[54px] font-bold font-poppins capitalize"
         >
           our business
         </div>

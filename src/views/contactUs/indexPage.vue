@@ -9,7 +9,7 @@
       <div class="absolute inset-0 bg-[#f15a29] opacity-10"></div>
       <div class="absolute inset-0">
         <div
-          class="container mx-auto w-full h-full flex items-center justify-center sm:justify-start text-white text-lg md:text-[54px] font-bold font-poppins capitalize"
+          class="container mx-auto w-full h-full flex items-center justify-start px-8 sm:px-0 sm:justify-start text-white text-lg md:text-[54px] font-bold font-poppins capitalize"
         >
           contact us
         </div>
@@ -92,13 +92,17 @@
       </div>
     </div>
 
-    <div class="px-6 md:px-0 pb-20">
-      <div
-        class="font-poppins font-semibold text-xs sm:text-sm md:text-3xl pb-4 md:pb-8 px-6 md:px-28"
-      >
-        Send a Message
+    <div
+      class="container mx-auto w-full flex-col md:flex-row justify-center py-10 md:py-14 px-8 md:px-0"
+    >
+      <div class="px-6 md:px-0 pb-20">
+        <div
+          class="font-poppins font-semibold text-lg sm:text-lg md:text-3xl pb-4 md:pb-8 px-0 md:px-0"
+        >
+          Send a Message
+        </div>
+        <contact-form />
       </div>
-      <contact-form />
     </div>
   </div>
 </template>

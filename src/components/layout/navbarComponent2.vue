@@ -11,18 +11,21 @@
           <div class="hidden sm:block">
             <img src="../../assets/logo1.png" alt="company logo" />
           </div>
-          <div class="sm:hidden">
-            <!-- <img
+          <router-link to="/">
+            <div class="sm:hidden">
+              <!-- <img
               src="../../assets/logo_wht.svg"
               alt="company logo"
               :class="{ hidden: showWhiteNav }"
             /> -->
-            <img
-              src="../../assets/logo1.png"
-              alt="company logo"
-              :class="{ block: !showWhiteNav }"
-            />
-          </div>
+
+              <img
+                src="../../assets/logo1.png"
+                alt="company logo"
+                :class="{ block: !showWhiteNav }"
+              />
+            </div>
+          </router-link>
           <div>
             <button v-show="!isVisible" class="sm:hidden" @click="toggle">
               <svg
@@ -62,12 +65,16 @@
           class="text-blacky mt-4 sm:mt-0 w-full sm:space-x-10 font-poppins font-bold sm:text-base md:text-lg sm:tracking-buttonWide sm:justify-end sm:content-center sm:items-center sm:flex sm:flex-row basis-3/4"
           :class="{ hidden: !isVisible }"
         >
-          <NavbarLinks to="/" label="Home" />
-          <NavbarLinks to="/about-us" label="About Us" />
-          <NavbarLinks to="/our-business" label="Our Business" />
-          <NavbarLinks to="/our-clients" label="Our Clients" />
-          <NavbarLinks to="/contact" label="Contact " />
-          <NavbarLinks to="/blog" label="Blog" />
+          <NavbarLinks @click="toggle" to="/" label="Home" />
+          <NavbarLinks @click="toggle" to="/about-us" label="About Us" />
+          <NavbarLinks
+            @click="toggle"
+            to="/our-business"
+            label="Our Business"
+          />
+          <NavbarLinks @click="toggle" to="/our-clients" label="Our Clients" />
+          <NavbarLinks @click="toggle" to="/contact" label="Contact " />
+          <NavbarLinks @click="toggle" to="/blog" label="Blog" />
         </div>
       </div>
     </nav>

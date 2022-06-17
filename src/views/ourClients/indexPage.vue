@@ -9,7 +9,7 @@
       <div class="absolute inset-0 bg-[#f15a29] opacity-10"></div>
       <div class="absolute inset-0">
         <div
-          class="container mx-auto w-full h-full flex items-center justify-center sm:justify-start text-white text-lg md:text-[54px] font-bold font-poppins capitalize"
+          class="container mx-auto w-full h-full flex items-center justify-start px-8 sm:px-0 sm:justify-start text-white text-lg md:text-[54px] font-bold font-poppins capitalize"
         >
           our clients and partners
         </div>
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div
-      class="flex flex-wrap justify-center container mx-auto content-center gap-16 sm:gap-16 px-8 md:px-0 pt-8 pb-14"
+      class="flex flex-wrap justify-center container mx-auto content-center gap-10 sm:gap-16 px-8 md:px-0 pt-8 pb-14"
     >
       <img
         data-aos="fade-up"
@@ -60,7 +60,7 @@
         data-aos-delay="300"
         src="/logos/presidencylogo.png"
         alt="presidency"
-        class="w-32 h-12 sm:52 md:w-[306px] md:h-[63px]"
+        class="w-32 h-10 sm:52 md:w-[306px] md:h-[63px]"
       />
       <img
         data-aos="fade-up"
@@ -84,7 +84,7 @@
         data-aos-delay="450"
         src="/logos/lusaka.png"
         alt="lusaka"
-        class="w-36 h-12 sm:w-52 md:w-[298px] md:h-[52px]"
+        class="w-36 h-10 sm:w-52 md:w-[298px] md:h-[52px]"
       />
       <img
         data-aos="fade-up"
@@ -133,7 +133,7 @@
         data-aos-delay="750"
         src="/logos/Rural-Electrification-Agency-REA.png"
         alt="REA"
-        class="w-32 md:w-[187px] md:h-[113px]"
+        class="w-32 h-16 md:w-[187px] md:h-[113px]"
       />
     </div>
   </div>

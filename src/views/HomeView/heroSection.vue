@@ -3,7 +3,12 @@
     <img
       src="/images/heroHome.jpg"
       alt="hero"
-      class="block w-full h-full object-cover"
+      class="w-full h-full object-cover hidden sm:block"
+    />
+    <img
+      src="/images/heroMobile.jpg"
+      alt="hero"
+      class="block sm:hidden w-full h-full object-cover"
     />
     <div
       class="absolute inset-0 bg-gradient-to-r from-deepOrange opacity-60"

@@ -28,11 +28,13 @@
               alt="company logo"
               :class="{ hidden: showWhiteNav }"
             /> -->
-            <img
-              src="../../assets/logo1.png"
-              alt="company logo"
-              :class="{ block: !showWhiteNav }"
-            />
+            <router-link to="/">
+              <img
+                src="../../assets/logo1.png"
+                alt="company logo"
+                :class="{ block: !showWhiteNav }"
+              />
+            </router-link>
           </div>
           <div>
             <button v-show="!isVisible" class="md:hidden" @click="toggle">
@@ -70,7 +72,7 @@
           </div>
         </div>
         <div
-          class="menu-nav mt-4 sm:mt-0 w-full sm:space-x-6 md:space-x-10  sm:justify-start sm:content-center sm:items-center sm:flex sm:flex-row basis-3/4 transition-all ease-out duration-400 sm:transition-none"
+          class="menu-nav mt-4 sm:mt-0 w-full sm:space-x-6 md:space-x-10 sm:justify-start sm:content-center sm:items-center sm:flex sm:flex-row basis-3/4 transition-all ease-out duration-400 sm:transition-none"
           :class="{ hidden: !isVisible, 'md:text-white': !showWhiteNav }"
         >
           <NavbarLinks @click="toggle" to="/" label="Home" />
@@ -120,6 +122,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

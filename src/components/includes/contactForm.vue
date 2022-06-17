@@ -4,7 +4,7 @@
     data-aos="fade-up"
     data-aos-duration="500"
   >
-    <div class="w-full bg-[#D9D9D9] rounded-sm md:p-8">
+    <div class="w-full bg-[#D9D9D9] rounded-md md:p-8">
       <form class="w-full">
         <div class="grid grid-cols-1 md:grid-cols-2 md:gap-6">
           <div>
@@ -47,6 +47,7 @@
               </label>
               <textarea
                 rows="10"
+                placeholder="Write your message"
                 class="appearance-none block w-full bg-white text-blacky border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               >
               </textarea>
@@ -58,6 +59,21 @@
           <AshferButton buttonText="send Message" />
         </div>
       </form>
+      <!-- <div
+        class="bg-gray-100 shadow-sm text-center text-base sm:text-lg flex w-full h-14 justify-center content-center font-Mplus tracking-widest"
+      >
+        <span class="py-2 text-green-800 font-semibold">
+          The form was sent successfully.
+        </span>
+      </div> -->
+
+      <!-- <div
+        class="bg-gray-100 shadow-sm text-center text-base sm:text-lg flex w-full h-14 justify-center content-center font-Mplus tracking-widest"
+      >
+        <span class="py-2 text-deepOrange font-semibold">
+          Ooops! An error occured....try again later.
+        </span>
+      </div> -->
     </div>
   </div>
 </template>
