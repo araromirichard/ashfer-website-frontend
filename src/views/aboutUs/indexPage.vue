@@ -20,21 +20,21 @@
       data-aos-duration="1500"
       class="container mx-auto w-full flex flex-col justify-center py-10 md:py-14 px-8 md:px-0"
     >
-      <div
+      <!-- <div
         class="text-primary font-Mplus text-sm md:text-base font-medium tracking-buttonWide uppercase w-full pt-10 md:pt-20"
       >
         who we are
-      </div>
+      </div> -->
       <div
-        class="w-full md:w-2/3 font-semibold text-lg md:text-2xl font-poppins text-left text-blacky py-4 md:pt-5 md:pb-5"
+        class="w-full md:w-2/3 font-semibold text-lg md:text-2xl font-poppins text-left text-primary py-4 md:pt-5 md:pb-5"
       >
-        We are a diversified enterprise with footprints in West Africa, East
-        Africa and Southern Africa.
+        We are a diversified enterprise with footprints in West Africa,<br />
+        East Africa and Southern Africa.
       </div>
       <div
         class="flex flex-col md:flex-row md:gap-28 text-left md:text-justify md:pt-6"
       >
-        <div class="text-blacky font-poppins font-normal text-lg">
+        <div class="text-blacky font-poppins font-normal text-base md:text-lg">
           <p>
             Our business interest cuts across various sectors of the economy and
             we are dedicated to meeting the needs of our customers and the
@@ -44,18 +44,22 @@
             integrity, accountability and transparency.
           </p>
 
-          <p class="font-bold font-poppins pt-6 md:pt-10">Our People</p>
+          <p class="font-bold font-poppins pt-6 pb-4 md:pt-10">Our People</p>
           <p>
             ASHFAR leverages on a network of high-profile professionals with
             experience in various sectors of the economy.
           </p>
         </div>
-        <div class="text-blacky font-poppins font-normal text-lg">
+        <div
+          class="text-blacky font-poppins font-normal text-base md:text-lg pt-8 md:pt-0"
+        >
           <p>
             We believe that our people are our biggest investment hence we
-            consistently search for ways to intensify our talent pool. Our
-            objective is to drive performance, create motivation, realize the
-            optimal potential and enhance personal development.
+            consistently search for ways to intensify our talent pool.
+          </p>
+          <p class="py-8 md:py-3">
+            Our objective is to drive performance, create motivation, realize
+            the optimal potential and enhance personal development.
           </p>
           <p>
             Hence, we invest in talent development and provide skills and
@@ -68,7 +72,7 @@
       </div>
     </div>
     <div
-      class="w-full h-[350px] bg-secondary inset-0 flex flex-col justify-center"
+      class="w-full h-[200px] md:h-[350px] bg-secondary inset-0 flex flex-col justify-center"
     >
       <div class="container mx-auto px-10 md:px-0">
         <p class="text-primary text-lg md:text-4xl font-semibold font-poppins">

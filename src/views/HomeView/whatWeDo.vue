@@ -4,21 +4,20 @@
       <div
         class="flex flex-col justify-center content-start px-8 md:w-3/5 text-left"
       >
-        <div class="super__title font-Mplus pt-20 uppercase text-primary">
+        <div class="super__title font-Mplus pt-20 uppercase text-ashfarWhite">
           our business
         </div>
-        <div class="main__title font-poppins pt-5 text-white">What we do</div>
+        <div class="main__title font-poppins pt-5 text-primary">What we do</div>
         <div
-          class="sub__title-one font-poppins font-bold pt-4 text-white text-left"
+          class="sub__title-one font-poppins font-bold pt-4 text-ashfarWhite text-left"
         >
-          We offer services ranging from
+          We offer services in
           <span class="text-orange"
             >Power, Oil and Gas, Haulage, Construction</span
           >
-          and <span class="text-orange">Manufacturing</span> to our various
-          clients around the world.
+          and <span class="text-orange">Manufacturing</span> sectors.
         </div>
-        <div class="sub__title-one pt-4 text-white text-left">
+        <div class="sub__title-one pt-4 text-ashfarWhite text-left">
           <p class="pt-4">
             Ashfar is committed to consistent provision of services that meet
             and/or exceed our customer expectations.
@@ -35,7 +34,7 @@
     </div>
   </div>
   <div
-    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 py-20 sm:pt-20 sm:pb-40 px-8 sm:px-16 bg-secondary h-full w-full"
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 py-16 sm:pt-20 sm:pb-40 px-8 sm:px-16 bg-secondary h-full w-full"
   >
     <router-link :to="{ name: 'our-business', hash: '#power' }">
       <ServicesCard

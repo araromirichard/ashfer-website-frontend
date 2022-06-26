@@ -68,7 +68,7 @@
             <div>
               <span
                 class="font-poppins text-xs sm:text-sm md:text-lg text-black font-bold tracking-buttonWide"
-                >+233 55 247 9790</span
+                >+233 30 279 9601</span
               >
             </div>
           </div>
@@ -93,11 +93,11 @@
     </div>
 
     <div
-      class="container mx-auto w-full flex-col md:flex-row justify-center py-10 md:py-14 px-8 md:px-0"
+      class="container mx-auto w-full flex-col md:flex-row justify-center py-10 md:py-14 px-2 md:px-0"
     >
-      <div class="px-6 md:px-0 pb-20">
+      <div class="px-2 md:px-0 pb-20">
         <div
-          class="font-poppins font-semibold text-lg sm:text-lg md:text-3xl pb-4 md:pb-8 px-0 md:px-0"
+          class="font-poppins font-semibold text-lg sm:text-lg md:text-3xl pb-4 md:pb-8 px-4 md:px-0"
         >
           Send a Message
         </div>

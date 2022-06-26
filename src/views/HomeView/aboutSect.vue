@@ -6,8 +6,10 @@
         data-aos-duration="3000"
         class="flex flex-col justify-center content-start px-8 md:w-3/5 text-left"
       >
-        <span class="super__title font-Mplus pt-20">ABOUT US</span>
-        <span class="main__title font-poppins pt-5">Who we are</span>
+        <span class="super__title text-highlight font-Mplus pt-20"
+          >ABOUT US</span
+        >
+        <span class="main__title text-secondary font-poppins pt-5">Who we are</span>
         <span class="sub__title-one font-poppins font-bold pt-4">
           We are a diversified enterprise with footprints in West Africa, East
           Africa and Southern Africa.
@@ -52,20 +54,17 @@ onMounted(() => {
 <style scoped>
 .super__title {
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 12.6px;
   line-height: 26px;
   letter-spacing: 6px;
   text-transform: uppercase;
-
-  color: #0d004c;
 }
 .main__title {
   font-style: normal;
   font-weight: 600;
   font-size: 45px;
   line-height: 68px;
-  color: #30233d;
 }
 
 .sub__title-one {

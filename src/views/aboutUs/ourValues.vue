@@ -16,7 +16,7 @@
           <div class="text-base md:text-2xl font-semibold capitalize">
             Our Vision
           </div>
-          <div class="w-full md:w-4/6 text-left text-sm md:text-lg">
+          <div class="w-full md:w-4/6 text-left text-base md:text-lg">
             Our Vision is to create a diversified business portfolio that is
             recognized regionally and globally for its drive towards sustainable
             development.
@@ -27,7 +27,7 @@
             Our Mission
           </div>
           <div
-            class="w-full md:w-3/5 text-left md:text-justify text-sm md:text-lg"
+            class="w-full md:w-3/5 text-left md:text-justify text-base md:text-lg"
           >
             We care about the environment where we operate and as such we are
             concerned about the sustainability of our surroundings. Our mission
@@ -40,10 +40,10 @@
             Our core Value
           </div>
           <div
-            class="w-full md:w-3/5 text-left md:text-justify text-sm md:text-lg"
+            class="w-full md:w-3/5 text-left md:text-justify text-base md:text-lg"
           >
             At ASHFAR, we are committed to promoting the following values:
-            <ol class="list-decimal pl-4">
+            <ol class="list-decimal pl-4 capitalize">
               <li>Discipline</li>
               <li>responsibility</li>
               <li>Integrity</li>

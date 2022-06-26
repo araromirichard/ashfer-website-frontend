@@ -1,12 +1,12 @@
 <template>
   <div class="container mx-auto flex flex-col justify-center content-center">
     <div
-      class="super__title font-Mplus px-8 text-center pt-20 uppercase text-primary w-full"
+      class="super__title font-Mplus px-8 text-center pt-20 uppercase text-highlight w-full"
     >
       partners and clients
     </div>
     <div
-      class="font-poppins font-semibold text-center text-4xl px-8 py-6 sm:py-8 sm:text-center tracking-wider"
+      class="font-poppins text-secondary font-semibold text-center text-4xl px-8 py-6 sm:py-8 sm:text-center tracking-wider"
     >
       Who we work with
     </div>
@@ -16,19 +16,18 @@
         style="max-width: 558px"
       >
         With just 6 years under our belt, we have worked and partnered with
-        several organizations and indviduals locally and internationally in
-        ensuring that their business objectives are met.
+        organizations around the world to ensure that our goals are met.
       </div>
     </div>
     <div
-      class="flex flex-wrap justify-center content-center gap-32 gap-y-6 sm:gap-14 py-6"
+      class="flex flex-wrap justify-center content-center gap-14 gap-y-6 sm:gap-14 py-6"
     >
       <img
         data-aos="fade-up"
         data-aos-duration="500"
         src="/logos/bui-power.png"
         alt="bui-power"
-        class="w-28 h-12 sm:w-48 md:w-[242px] md:h-[66px]"
+        class="w-40 h-12 sm:w-48 md:w-[242px] md:h-[66px] hidden md:block"
       />
       <img
         data-aos="fade-up"
@@ -36,7 +35,7 @@
         data-aos-delay="100"
         src="/logos/bgn.png"
         alt="bgn"
-        class="w-24 h-12 sm:w-48 md:w-[182px] md:h-[89px]"
+        class="h-12 sm:w-48 md:w-[182px] md:h-[89px]"
       />
       <img
         data-aos="fade-up"
@@ -44,7 +43,7 @@
         data-aos-delay="150"
         src="/logos/volta.png"
         alt="volta"
-        class="w-24 h-10 sm:w-48 md:w-[250px] md:h-[80px]"
+        class="h-10 sm:w-48 md:w-[250px] md:h-[80px]"
       />
       <img
         data-aos="fade-up"
@@ -52,7 +51,7 @@
         data-aos-delay="200"
         src="/logos/phedc.png"
         alt="phedc"
-        class="w-24 h-10 sm:w-48 md:w-[229px] md:h-[76px]"
+        class="h-10 sm:w-48 md:w-[229px] md:h-[76px]"
       />
     </div>
     <AshferButton

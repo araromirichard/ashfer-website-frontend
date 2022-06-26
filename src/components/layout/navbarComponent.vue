@@ -11,13 +11,14 @@
         >
           <div class="hidden md:block">
             <img
-              src="../../assets/logo_wht.png"
+              src="../../assets/logo_wht.svg"
               alt="company logo"
-              class="w-56"
+              class="w-66"
               :class="{ hidden: showWhiteNav }"
             />
             <img
-              src="../../assets/logo1.png"
+              class="w-40 h-24"
+              src="../../assets/new-white-logo.svg"
               alt="company logo"
               :class="{ hidden: !showWhiteNav }"
             />

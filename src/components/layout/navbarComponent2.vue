@@ -62,7 +62,7 @@
           </div>
         </div>
         <div
-          class="text-blacky mt-4 sm:mt-0 w-full sm:space-x-10 font-poppins font-bold sm:text-base md:text-lg sm:tracking-buttonWide sm:justify-end sm:content-center sm:items-center sm:flex sm:flex-row basis-3/4"
+          class="text-blacky mt-4 sm:mt-0 w-full sm:space-x-10 font-poppins sm:text-base md:text-lg sm:tracking-buttonWide sm:justify-end sm:content-center sm:items-center sm:flex sm:flex-row basis-3/4"
           :class="{ hidden: !isVisible }"
         >
           <NavbarLinks @click="toggle" to="/" label="Home" />

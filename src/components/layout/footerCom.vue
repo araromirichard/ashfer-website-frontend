@@ -1,9 +1,9 @@
 <template>
   <footer class="bg-secondary w-full py-6">
     <div
-      class="container mx-auto flex text-white mt-20 flex-wrap w-full md:space-x-3 space-y-8"
+      class="container mx-auto flex text-white mt-10 md:mt-20 flex-wrap w-full md:space-x-3 space-y-8"
     >
-      <div class="flex flex-col justify-start content-center">
+      <div class="flex flex-col justify-start content-center md:hidden">
         <img src="/src/assets/footerlogo.svg" class="w-60" alt="" />
         <span class="text-base font-poppins font-bold ml-10"
           >Empowering Nations</span
@@ -109,8 +109,8 @@
                   d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
                 />
               </svg>
-              <a class="phone px-2 md:px-4" href="tel:+233 55 247 9790"
-                >+233 55 247 9790</a
+              <a class="phone px-2 md:px-4" href="tel:+233302799601"
+                >+233 30 279 9601</a
               >
             </li>
           </ul>

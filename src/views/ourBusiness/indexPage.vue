@@ -114,7 +114,7 @@
     </div>
     <div id="oil">
       <BusinesSection
-        cardName="oli and gas"
+        cardName="oil and gas"
         subTitle="retail and bulk petroleum products"
         src="/images/OIL-&-GAS-1.jpg"
       />

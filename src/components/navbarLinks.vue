@@ -1,7 +1,7 @@
 <template>
   <div>
     <router-link
-      class="block sm:inline-block px-6 font-poppins font-bold sm:text-xs md:text-lg sm:uppercase sm:px-0 py-3 tracking-buttonWide hover:text-primary sm:hover:text-blacky sm:hover:py-0 sm:hover:border-b-4 sm:hover:border-primary transition-colors duration-300"
+      class="block sm:inline-block px-6 font-poppins sm:text-xs md:text-lg sm:uppercase sm:px-0 py-3 tracking-buttonWide hover:text-primary sm:hover:text-blacky sm:hover:py-0 sm:hover:border-b-4 sm:hover:border-primary transition-colors duration-300"
       :to="to"
     >
       {{ label }}

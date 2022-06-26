@@ -13,7 +13,7 @@
         >{{ cardName }}</span
       >
       <span
-        class="text-xs md:text-sm tracking-buttonWide font-Mplus font-medium"
+        class="text-xs md:text-sm tracking-buttonWide font-Mplus font-medium uppercase"
         >{{ subTitle }}</span
       >
     </div>

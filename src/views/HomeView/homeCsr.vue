@@ -16,10 +16,10 @@
       <div
         class="bg-secondary px-8 md:px-32 h-full flex flex-col justify-center content-center inset-0"
       >
-        <div class="super__title font-Mplus pt-20 uppercase text-primary">
+        <div class="super__title font-Mplus pt-20 uppercase text-ashfarWhite">
           csr
         </div>
-        <div class="main__title font-poppins pt-10 text-white">
+        <div class="main__title font-poppins pt-10 text-primary">
           Our Rural <br />
           Electrification <br />
           initiatives
@@ -44,7 +44,7 @@
     />
   </div>
   <div
-    class="mt-0 sm:mt-[100px] md:mt-[240px] px-8 sm:px-0 flex flex-col justify-center"
+    class="pt-8 md:pt-0 mt-0 sm:mt-[100px] md:mt-[240px] px-2 sm:px-0 flex flex-col justify-center"
   >
     <h5
       class="text-[#30233D] text-lg md:text-3xl text-center font-semibold font-poppins"
@@ -77,7 +77,7 @@ onMounted(() => {
 
 .super__title {
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 16px;
   line-height: 18px;
   letter-spacing: 6px;
