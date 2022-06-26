@@ -134,7 +134,7 @@
         data-aos-delay="750"
         src="/logos/trinaWeb.png"
         alt="REA"
-        class="h-16 md:w-[245px]"
+        class="h-16 md:w-[220px] md:h-[50px]"
       />
     </div>
   </div>

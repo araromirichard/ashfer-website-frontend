@@ -13,7 +13,7 @@
             <img
               src="../../assets/logo_wht.svg"
               alt="company logo"
-              class="w-66"
+              class="w-74"
               :class="{ hidden: showWhiteNav }"
             />
             <img

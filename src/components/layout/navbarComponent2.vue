@@ -9,7 +9,11 @@
           class="flex flex-row w-full items-center justify-between sm:basis-1/4"
         >
           <div class="hidden sm:block">
-            <img src="../../assets/logo1.png" alt="company logo" />
+            <img
+              src="../../assets/logo1.png"
+              alt="company logo"
+              class="md:w-52"
+            />
           </div>
           <router-link to="/">
             <div class="sm:hidden">
