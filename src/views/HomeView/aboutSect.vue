@@ -9,7 +9,9 @@
         <span class="super__title text-highlight font-Mplus pt-20"
           >ABOUT US</span
         >
-        <span class="main__title text-secondary font-poppins pt-5">Who we are</span>
+        <span class="main__title text-secondary font-poppins pt-5"
+          >Who we are</span
+        >
         <span class="sub__title-one font-poppins font-bold pt-4">
           We are a diversified enterprise with footprints in West Africa, East
           Africa and Southern Africa.

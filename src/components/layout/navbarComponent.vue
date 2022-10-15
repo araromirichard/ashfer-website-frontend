@@ -85,7 +85,7 @@
           />
           <NavbarLinks @click="toggle" to="/our-clients" label="Our Clients" />
           <NavbarLinks @click="toggle" to="/contact" label="Contact " />
-          <NavbarLinks @click="toggle" to="/blog" label="Blog" />
+          <NavbarLinks @click="toggle" to="/blog-posts" label="Blog" />
         </div>
       </div>
     </nav>

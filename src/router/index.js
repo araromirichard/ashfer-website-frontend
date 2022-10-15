@@ -39,12 +39,22 @@ const router = createRouter({
             component: () =>
                 import ("../views/ourClients/indexPage.vue"),
         },
-        // {
-        //     path: "/blog",
-        //     name: "contact-us",
-        //     component: () =>
-        //         import ("../views/contactUs/indexPage.vue"),
-        // },
+        {
+            path: "/blog-posts",
+            name: "blog.index",
+            component: () =>
+                import ("../views/blog/indexPage.vue"),
+        },
+        {
+            path: "/blog-posts/:slug",
+            name: "blog.show",
+            component: () =>
+                import (
+                    /* webpackChunkName: "blog-detail" */
+                    "../views/blog/showBlog.vue"
+                ),
+            props: true,
+        },
         {
             path: "/csr",
             name: "csr",
