@@ -31,13 +31,12 @@
           >
             We care about the environment where we operate and as such we are
             concerned about the sustainability of our surroundings. Our mission
-            is to provide services that are ecologically sustainable and create
-            value for future generations
+            is to sustainably create value for our customers without compromising the needs of future generations.
           </div>
         </div>
         <div class="flex flex-col md:flex-row md:gap-20 text-left">
           <div class="text-base md:text-2xl font-semibold capitalize">
-            Our core Value
+            Our core Values
           </div>
           <div
             class="w-full md:w-3/5 text-left md:text-justify text-base md:text-lg"
@@ -45,10 +44,10 @@
             At ASHFAR, we are committed to promoting the following values:
             <ol class="list-decimal pl-4 capitalize">
               <li>Discipline</li>
-              <li>responsibility</li>
+              <li>Responsibility</li>
               <li>Integrity</li>
               <li>Innovation</li>
-              <li>value people</li>
+              <li>Value people</li>
             </ol>
           </div>
         </div>
